@@ -1,0 +1,24 @@
+{
+  "name": "dealers_choice_sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "html-template-tag": "^4.0.0",
+    "method-override": "^3.0.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
